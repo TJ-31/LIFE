@@ -1,0 +1,1442 @@
+html, body, div, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, 
+dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, 
+hgroup, menu, nav, output, ruby, section, summary, time, mark, 
+audio, video 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+    .wrapper {
+        width: 100%;
+    }
+
+    body {
+        line-height: 1.3;
+		background-color: #ffffff;
+        scroll-behavior: smooth;
+    }
+    
+.logo {
+		color: #484848;
+		height: 4.5em;
+		left: 0;
+		position: fixed;
+		top: 0;
+	}
+
+
+    ol, ul {
+        list-style:disc;
+    }
+    
+    blockquote, q {
+        quotes: none;
+    }
+    
+        blockquote:before, blockquote:after, q:before, q:after {
+            content: '';
+            content: none;
+        }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    body {
+        -webkit-text-size-adjust: none;
+    }
+    
+    mark {
+        background-color: transparent;
+        color: inherit;
+    }
+
+
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 14pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
+
+        strong, b {
+            font-weight: 900;
+        }
+    
+        em, i {
+            font-style: italic;
+        }
+
+/*p*/
+        p {
+            margin-top: 3em;
+            margin-bottom: -10em;
+            margin-right: 12.5em;
+            margin-left: 12.5em;
+            line-height: 1.3em;
+            font-size: 1em;
+            font-family: 'palatino';
+            scroll-behavior: smooth;
+        }
+
+        .p1 {
+            margin-bottom: 1.3em;
+            margin-top: 1.5em;
+            text-align: left;
+            margin-left: 0.3em;
+            color: black;
+        }
+
+        /* About us page */
+        .p2 {
+            margin-bottom: -10em;
+            margin-right: 12.5em;
+            margin-left: 12.5em;
+            line-height: 1.3em;
+            margin-top: 45em;
+            text-align: left;
+            color: black;
+        }
+
+        /* Yoga, mediation and stretching page */
+        .p3 {
+            margin-top: 3em;
+            margin-bottom: 3em;
+            margin-right: 12.5em;
+            margin-left: 12.5em;
+            line-height: 1.3em;
+            color: black;
+        }        
+
+        /* About us page */
+        .p4 {                        
+            margin-top: 2em;
+            margin-bottom: -1em;
+            margin-right: 12.5em;
+            margin-left: 12.5em;
+            line-height: 1.3em;
+            color: black;
+        }
+
+        .p5 {
+            margin-top: 3em;
+            margin-bottom: -1em;
+            margin-right: 12.5em;
+            margin-left: 12.5em;
+            line-height: 1.3em;
+            color: white;
+            font-size: 0.8em;
+        }
+
+			.center {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			  }
+
+/*h*/
+
+        h1 {
+			padding: 0.5em;
+			font-size: 3em;
+			font-family: 'optima';
+			line-height: 1.3;
+			margin: 0em 0em 10em 0em;
+			letter-spacing: -0.035em;
+			text-align: center;
+			margin-top: 3em;
+			margin-bottom: -0.5em;
+            color: #fff;
+        }
+
+		.h11 {
+			padding: 0.5em;
+			font-size: 3em;
+			font-family: 'optima';
+			font-weight: 700;
+			line-height: 1.3;
+			margin: 0em 0em 10em 0em;
+			letter-spacing: -0.035em;
+			text-align: center;
+			margin-top: 3em;
+			margin-bottom: -0.5em;
+            color: rgb(41, 103, 109);
+        }
+
+    
+            h1 a {
+                color: inherit;
+            }
+
+            @media screen and (max-width: 736px) {
+
+                h1 {
+                    font-size: 2em;
+                    margin: 0 0 1em 0;
+                    
+                }
+    
+            }
+    
+            @media screen and (max-width: 360px) {
+    
+                h1 {
+                    font-size: 1.75em;
+                }
+    
+            }
+    
+        h2, h3, h4, h5, h6 {
+            
+            line-height: 1.5;
+            text-transform: none;
+            letter-spacing: 0em;
+            
+        }
+    
+            h2 a, h3 a, h4 a, h5 a, h6 a {
+                color: inherit;
+            }
+    
+        h2 {
+            font-size: 1.5em;
+			text-align: center;
+			font-style: italic;
+			font-family: 'diot';
+			margin-bottom: 1em;
+
+        }
+    
+        h3 {
+            font-size: 3em;
+			font-family: cursive;
+			text-align: center;
+        }
+    
+        h4 {
+            font-size: 1em;
+			font-weight: bold;
+            font-family: 'papyrus';
+			text-align: center;
+			text-decoration: underline;
+        }
+
+        .h41 {
+            font-size: 1.5em;
+			font-weight: bold;
+            font-family: 'papyrus';
+            text-align: center;
+			text-decoration: underline;
+            margin-top: 2em;
+        }
+
+        .h42 {
+            font-size: 1.5em;
+			font-weight: bold;
+            font-family: 'papyrus';
+            text-align: center;
+			text-decoration: underline;
+            margin-top: 0.5em;
+        }
+
+        .h43 {
+            font-size: 1.3em;
+			font-weight: bold;
+            font-family: 'papyrus';
+            text-align: center;
+			text-decoration: none;
+            margin-top: 2em;
+        }
+    
+        h5 {
+            font-size: 1.3em;
+            color: white;
+            margin-top: -0.5em;
+        }
+
+		.h51{
+            font-size: 1.3em;
+            color: rgb(41, 103, 109);
+            margin-top: -0.5em;
+        }
+
+        .h52{
+            font-size: 1.3em;
+            color: rgb(0, 0, 0);
+            margin-top: -0.5em;
+        }
+
+        @media(max-width: 700px){
+            .h52{
+                font-size: 1.3em;
+                color: rgb(0, 0, 0);
+                margin-top: -3em;
+            }
+        }
+    
+        h6 {
+            font-size: 1.5em;
+        }
+
+    
+        @media screen and (max-width: 980px) {
+    
+            h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+                display: none;
+            }
+    
+        }
+    
+        @media screen and (max-width: 736px) {
+    
+            h2 {
+                font-size: 1em;
+            }
+    
+            h3 {
+                font-size: 0.8em;
+            }
+    
+        }
+        @media screen and (max-width: 980px) {
+
+            h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+                display: none;
+            }
+    
+        }
+    
+        @media screen and (max-width: 736px) {
+    
+            h2 {
+                font-size: 1em;
+            }
+    
+            h3 {
+                font-size: 0.8em;
+            }
+    
+        }
+    
+	
+			a {
+				color: #484848;
+				cursor:grab;
+			}
+
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+
+/* Showcase */
+
+.showcase {
+	width: 100%;
+	height: 44em;
+	position: relative;
+    scroll-behavior: smooth;
+}
+
+/* index front cover img */
+.showcase.showcase1 {
+    background: url('https://i.imgur.com/nqk8dbK.png') no-repeat center center/cover;
+
+}
+
+/* Services front cover img */
+.showcase.showcase2 {
+	background: url('https://i.pinimg.com/originals/91/b5/8c/91b58c2315e58dbf229b8ae933feca05.jpg') no-repeat center center/cover;
+}
+
+/* About us front cover img */
+.showcase.showcase3 {
+    background: url('https://img.wallpapersafari.com/desktop/1024/576/60/27/cez8bN.jpg') no-repeat center center/cover;
+
+}
+
+/* Contact us front cover img */
+.showcase.showcase4 {
+    background: url('https://wallpaperaccess.com/full/3124511.jpg') no-repeat center center/cover;
+
+}
+
+/* Register page front cover img */
+.showcase.showcase5 {
+    background: url('https://static.vecteezy.com/system/resources/previews/000/834/558/non_2x/3d-cube-golden-box-abstract-background-vector.jpg') no-repeat center center/cover;
+
+}
+
+/* Mental H&W front cover img */
+.showcase.showcase6 {
+    background: url('https://image.shutterstock.com/image-photo/beautiful-sky-clouds-pale-peach-260nw-1798407241.jpg') no-repeat center center/cover;
+
+}
+
+/* Healthy Habits front cover img */
+.showcase.showcase7 {
+	background: url('https://media.istockphoto.com/photos/restaurant-gourmet-food-on-dark-background-picture-id902558446?k=20&m=902558446&s=170667a&w=0&h=-mr8LaG_pKDXhwA5n-jkYeqMsKwUtNdSFIIggfjicu0=') no-repeat center center/cover;
+}
+
+/* Yoga front cover img */
+.showcase.showcase8 {
+    background: url('https://www.silverliningmentoring.org/wp-content/uploads/2019/03/Building-Connection-and-Community-Through-Yoga.jpg') no-repeat center center/cover;
+
+}
+
+/* Meditation front cover img */
+.showcase.showcase9 {
+    background: url('https://i.pinimg.com/originals/44/04/db/4404db7b2d199aabd2c070180b8a8d57.jpg') no-repeat center center/cover;
+
+}
+
+/* Stretching front cover img */
+.showcase.showcase10 {
+    background: url('https://images.unsplash.com/photo-1524863479829-916d8e77f114?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+
+}
+
+/* COVID-19 front cover img */
+.showcase.showcase11 {
+    background: url('https://greathealth365.com/wp-content/uploads/2018/01/bigstock-Stack-Of-Hands-Showing-Unity-A-153849635.jpg') no-repeat center center/cover;
+
+}
+
+/* layout front cover img */
+.showcase.showcase12 {
+    background: url('https://wallpapercave.com/wp/wp3377140.jpg') no-repeat center center/cover;
+
+}
+
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 5em;
+    bottom: 10em;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.showcase-top {
+	position: relative;
+	z-index: 2;
+	height: 90px;
+}
+
+.showcase-top img {
+	width: 170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: 0;
+}
+
+.showcase-top a {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(-50%, -50%);
+}
+
+.showcase-content {
+	position: relative;
+	z-index: 2;
+	width: 65%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 9rem;
+}
+
+.showcase-content h1 {
+	font-weight: 700;
+	font-size: 6em;
+	line-height: 1.1;
+	margin-top: 0.5em;
+}
+
+@media(max-width:700px){
+    .showcase-content h1 {
+        font-weight: 200;
+        font-size: 3em;
+        line-height: 1.1;
+        margin-top: 0.5em;
+    }
+}
+
+
+/*lists */
+
+ol {
+    list-style: decimal;
+    margin: 0 0 2em 0;
+    padding-left: 1.25em;
+}
+
+    ol li {
+        padding-left: 0.25em;
+    }
+
+ul {
+    color: #484848;
+    list-style: disc;	
+}
+
+.ul1 {
+    margin-left: 15em;
+} 
+
+    ul li {
+        padding-left: 0.5em;
+    }
+
+    ul.alt {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        ul.alt li {
+            padding: 0.5em 0;
+        }
+
+dl {
+    margin: 0 0 2em 0;
+}
+
+    dl dt {
+        display: block;
+        font-weight: 900;
+        margin: 0 0 1em 0;
+    }
+
+    dl dd {
+        margin-left: 2em;
+    }
+@media screen and (max-width: 480px) {
+
+        ul.actions:not(.fixed) {
+            -moz-flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-left: 0;
+            width: 100% !important;
+        }
+
+            ul.actions:not(.fixed) li {
+                -moz-flex-grow: 1;
+                -webkit-flex-grow: 1;
+                -ms-flex-grow: 1;
+                flex-grow: 1;
+                -moz-flex-shrink: 1;
+                -webkit-flex-shrink: 1;
+                -ms-flex-shrink: 1;
+                flex-shrink: 1;
+                padding: 1em 0 0 0;
+                text-align: center;
+                width: 100%;
+            }
+
+                ul.actions:not(.fixed) li > * {
+                    width: 100%;
+                }
+
+                ul.actions:not(.fixed) li:first-child {
+                    padding-top: 0;
+                }
+
+                ul.actions:not(.fixed) li input[type="submit"],
+                ul.actions:not(.fixed) li input[type="reset"],
+                ul.actions:not(.fixed) li input[type="button"],
+                ul.actions:not(.fixed) li button,
+                ul.actions:not(.fixed) li .button {
+                    width: 100%;
+                }
+
+                    ul.actions:not(.fixed) li input[type="submit"].icon:before,
+                    ul.actions:not(.fixed) li input[type="reset"].icon:before,
+                    ul.actions:not(.fixed) li input[type="button"].icon:before,
+                    ul.actions:not(.fixed) li button.icon:before,
+                    ul.actions:not(.fixed) li .button.icon:before {
+                        margin-left: -0.5rem;
+                    }
+
+    }
+
+/* Box */
+
+.box {
+border-radius: 4px;
+border: solid 1px rgba(144, 144, 144, 0.25);
+margin-bottom: 2em;
+padding: 1.5em;
+}
+
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+    margin-bottom: 0;
+}
+
+.box.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+
+/* Image */
+
+.image {
+border-radius: 4px;
+display: inline-block;
+position: relative;
+scroll-behavior: smooth;
+}
+
+.image img {
+    border-radius: 4px;
+    display: block;
+}
+
+.image.left, .image.right {
+    max-width: 34%;
+}
+
+    .image.left img, .image.right img {
+        width: 100%;
+    }
+
+.image.left1 {                 /* jump */
+    float: left;
+    margin-left: 10em;
+    top: 5em;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.image.right1 {                 /* happy */
+    float: right;
+    margin-right: 10em;
+    top: 5em;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.image.right {                 /* prayer */
+    float: right;
+    margin-right: 10em;
+    top: 9em;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.image.left {                 /* health */
+    float: left;
+    margin-left: 10em;
+    top: 9em;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+
+    .image.fit img {
+        width: 100%;
+    }
+
+.image.main {
+    display: block;
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+    .image.main img {
+        width: 100%;
+    }
+
+
+    .center {
+		margin-top: 2em;
+        margin-left: 22em;
+        margin-right: 0em;
+        width: 50%;
+      }
+
+	  .center1 {             /* Quote image on services page */
+		margin-top: -13em;
+		margin-bottom: 9em;
+        margin-left: 24em;
+        margin-right: 0em;
+        width: 50%;
+        scroll-behavior: smooth;
+      }
+
+	  .center2 {             /* Mental H&W characteristics image */
+		margin-top: 12em;
+        margin-bottom: -1em;
+        margin-left: 25em;
+        margin-right: 0em;
+        width: 50%;
+        scroll-behavior: smooth;
+      }
+
+	  .center3{             /* Yoga image */
+		margin-top: 2em;
+        margin-left: 25em;
+        margin-right: 0em;
+        width: 50%;
+        scroll-behavior: smooth;
+      }
+
+	  .center4 {           /* Submit button on contact page */
+		margin-top: 1em;
+        margin-left: 15em;
+        margin-right: 0em;
+        width: 50%;
+        scroll-behavior: smooth;
+      }
+
+      .center5 {           /* Submit button on Register page */
+		margin-top: 4em;
+        margin-left: 14em;
+        margin-right: 0em;
+        width: 50%;
+        scroll-behavior: smooth;
+      }
+
+
+    @media screen and (max-width: 736px) {
+
+        .image.main {
+            margin: 0 0 2em 0;
+        }
+
+    }
+
+/* Video */
+
+.video {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/254/523/large_2x/pastel-sky-blue-watercolor-texture-background-free-photo.jpg');	
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	margin-left: 8em;
+    scroll-behavior: smooth;
+}
+
+/* Button */
+
+.button {
+	background: url('https://i.pinimg.com/originals/4a/d9/b8/4ad9b8b231aaee4bf0d9bfe9e052317e.jpg');
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	display: inline-block;
+    scroll-behavior: smooth;
+}
+
+.button:hover {
+	box-shadow: 0 0.8em 0.9em 0 #59cccc, 0 1em 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.button.button1{ /* COVID-19 Resolutions */
+	width: 25em;
+	height:23em;
+	margin-left: 40.5em;
+	margin-right: -2em;
+	margin-top: 16.5em;
+	margin-bottom: -50em;
+	display: inline-block;
+}
+
+.button.button2{ /* Mental H&W */
+	width: 25em;
+	height:23em;
+	margin-left: 20em;
+	margin-right: -2em;
+	margin-top: 20em;
+	margin-bottom: 25em;
+	display: inline-block;
+}
+
+.button.button3 { /* Healthy Habits */
+	width: 25em;
+	height:23em;
+	margin-left: 20em;
+	margin-right: -2em;
+	margin-top: 20em;
+	display: inline-block;
+}
+
+.button.button4 {
+	width: 25em;
+	height: 7em;
+	margin-left: 53em;
+	margin-top: 30em;
+	margin-bottom: -100em;
+}
+
+.button.icon { /* Create Acc */
+	width: 25em;
+	height: 7em;
+	margin-left: 41em;
+	margin-top: 8em;
+	margin-bottom: -100em;
+}
+
+.button.left{ /* Yoga */
+	width: 25em;
+	height:23em;
+	margin-left: 11em;
+	margin-right: -2em;
+	display: inline-block;
+}
+
+.button.right{ /* Stretching */
+	width: 25em;
+	height:23em;
+	margin-left: 7em;
+	margin-right: -2em;
+	display: inline-block;
+}
+
+.button.center{ /* Meditation */
+	width: 25em;
+	height:23em;
+	margin-left: 7em;
+	margin-right: -2em;
+	margin-top: 15em;
+	display: inline-block;
+}
+
+
+/*Header*/
+
+#header {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/254/523/large_2x/pastel-sky-blue-watercolor-texture-background-free-photo.jpg');
+    box-shadow: 3em black;
+    color: #484848;
+    font-size: 1.25em;
+    height: 5.5em;
+    left: 0;
+    line-height: 4.4em;
+    letter-spacing: normal;
+    position: fixed;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    z-index: 10001;	
+    scroll-behavior: smooth;
+}
+
+#header h1 {
+    color: #484848;
+    font-weight: 400;
+    height: inherit;
+    left: 1.25em;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 3em;
+    top: 0.5em;
+    align-items: center;
+}
+
+    .nav {
+        flex: 1;
+        text-align: right;
+    }
+
+    #header nav ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+        #header nav ul li {
+            list-style: none;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: 2.5em;
+            padding-left: 0;
+        }
+
+            #header nav ul li a {
+                -moz-transition: color 0.2s ease-in-out;
+                -webkit-transition: color 0.2s ease-in-out;
+                -ms-transition: color 0.2s ease-in-out;
+                transition: color 0.2s ease-in-out;
+                color: rgb(8, 20, 0);
+                display: inline-block;
+                text-decoration: none;
+            }
+
+            #header nav ul li::after {
+                content: '';
+                width: 0%;
+                height: 0.125em;
+                background: #319292;
+                display: block;
+                margin: auto;
+                transition: 0.5s;
+                margin-top: -0.9em;
+            }
+
+            #header nav ul li:hover:after {
+                width: 100%;
+            }
+
+                #header nav ul li a:hover {
+                    color: #1d7c6c;
+                }
+
+
+            #header nav ul li .button {
+                height: 3em;
+                line-height: 2em;
+                margin-bottom: 5em;
+                padding: 0 1.5em;
+                position: relative;
+                top: -0.075em;
+                vertical-align: middle;
+            }
+
+#header.alt {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    height: 3.25em;
+    line-height: 3.25em;
+    position: absolute;
+}
+
+
+/* Form */
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+	border-radius: 0.25em;
+	box-sizing: border-box;
+    font-family: 'diot';
+	margin-top: 0em;
+	margin-bottom: 1em;
+	resize: vertical;
+    scroll-behavior: smooth;
+}
+
+input[type=email] {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+	border-radius: 0.25em;
+	box-sizing: border-box;
+    font-family: 'diot';
+	margin-top: 0em;
+	margin-bottom: 1em;
+	resize: vertical;
+    scroll-behavior: smooth;
+}
+
+input[type=subject] {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+	border-radius: 0.25em;
+    font-family: 'diot';
+	box-sizing: border-box;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	resize: vertical;
+    scroll-behavior: smooth;
+}
+
+input[type=number] {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+	border-radius: 0.25em;
+    font-family: 'diot';
+	box-sizing: border-box;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	resize: vertical;
+    scroll-behavior: smooth;
+}
+
+input[type=phone] {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+	border-radius: 0.25em;
+	box-sizing: border-box;
+    font-family: 'diot';
+	margin-top: 0em;
+	margin-bottom: 1em;
+	resize: vertical;
+}
+
+input[type=radio] {
+    width: 1.1em;
+    height: 1.1em;
+    outline: none;
+	border-radius: 0em;
+	margin-top: 0em;
+	margin-bottom: -0.1em;
+    margin-left: 1em;
+    border-color:rgb(27, 211, 211);
+}
+
+input[type='radio']:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked:before {
+    background: rgb(27, 211, 211);
+    border-color:rgb(27, 211, 211);
+    
+}
+
+input[type="radio"]:checked {
+  border-color:rgb(27, 211, 211);
+}
+
+.label1 {
+    margin-top: 0.5em;
+    margin-left: 0.2em;
+    font-size: 1.1em;
+}
+
+input[type=range] {
+	width: 100%;
+	padding: 0.75em;
+	border: 0.2em solid rgb(27, 211, 211);
+    background-color: rgb(27, 211, 211);
+	border-radius: 0.25em;
+	box-sizing: border-box;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	resize: vertical;
+}
+
+
+input[type=submit] {
+	background: url('https://i.pinimg.com/originals/4a/d9/b8/4ad9b8b231aaee4bf0d9bfe9e052317e.jpg');
+	color: white;
+	border: none;
+	border-radius: 0.25em;
+	cursor: pointer;
+	font-size: 2.5em;
+	font-family: cursive;
+	text-align: center;
+    width: 10em;
+}
+
+/* register page form box*/
+.card1 {
+    width: 50em;
+    height: 48em;
+    margin-left: -13.5em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 0.5em 0.25em rgba(0,0,0,0.26);
+}
+
+/* Healthy Habits form box */
+.card2 {
+    width: 50em;
+    height: 38em;
+    margin-left: -13.5em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 0.5em 0.25em rgba(0,0,0,0.26);
+}
+
+.inner-box1 {
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+/* Rego */
+
+.form {
+padding: 1em 2em;
+scroll-behavior: smooth;
+}
+
+.form-control {
+margin-bottom:0em;
+padding-bottom: 0.5em;
+position: relative;
+}
+
+.form-control label {
+display: inline-block;
+margin-bottom: 0.5em;
+}
+
+.form-control input {
+border: 0,125em solid #f0f0f0;
+border-radius: 0.5em;
+}
+
+/* for errors */
+#form .error {
+    color: red;
+    font-size: 1em;
+    margin-left: 0em;
+    display: none;
+}
+
+/* for register, healthy habits page */
+.container1 {
+	border-radius: 0.4em;
+	margin-left: 26.5em;
+	margin-right: 0em;
+}
+
+/* for register form box */
+.card {
+    width: 50em;
+    height: 71em;
+    margin-left: -13.5em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 0.6em 0.25em rgba(0,0,0,0.26);
+}
+
+.inner-box {
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+/*Footer*/
+
+#footer {
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* Register */
+.footer0 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 127em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* Home, About, Contact, Services */
+.footer1 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 103em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* Mental H&W */
+.footer2 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 106em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* COVID-19 */
+.footer3 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 95em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* Yoga, Mediatation, Stretching */
+.footer4 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 120em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+/* Helathy Habits */
+.footer5 {
+    background-image: url('https://i.imgur.com/nqk8dbK.png');
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 100em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
+
+#footer a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2em;
+}
+
+    #footer a:active, #footer a:hover {
+        color: #40dbe0;
+        font-weight: bold;
+    }
+
+            #footer ul li .button {
+                border-color: rgba(6, 7, 7, 0.25);
+                line-height: 2em;
+                text-align:justify,center;
+            }
+            @media screen and (max-width: 1280px) {
+
+                #footer {
+                    padding: 5em 0 3em 0 ;
+                }
+    
+                    #footer > .inner section:nth-child(1) {
+                        width: calc(66% - 1em);
+                        margin-right: 1em;
+                    }
+    
+                    #footer > .inner section:nth-child(2) {
+                        width: calc(33% - 1.25em);
+                        margin-left: 1.25em;
+                    }
+    
+            }
+    
+            @media screen and (max-width: 980px) {
+    
+                #footer > .inner section:nth-child(1) {
+                    width: 66%;
+                    margin-right: 0;
+                }
+    
+                #footer > .inner section:nth-child(2) {
+                    width: calc(33% - 2.5em);
+                    margin-left: 2.5em;
+                }
+    
+            }
+    
+            @media screen and (max-width: 736px) {
+    
+                #footer {
+                    padding: 3em 0 1em 0 ;
+                }
+    
+                    #footer > .inner {
+                        -moz-flex-direction: column;
+                        -webkit-flex-direction: column;
+                        -ms-flex-direction: column;
+                        flex-direction: column;
+                    }
+    
+                        #footer > .inner section:nth-child(1) {
+                            width: 100%;
+                            margin-right: 0;
+                            margin: 0em 0 0 0;
+                        }
+    
+                        #footer > .inner section:nth-child(2) {
+                            -moz-order: -1;
+                            -webkit-order: -1;
+                            -ms-order: -1;
+                            order: -1;
+                            width: 100%;
+                            margin-left: 0;
+                        }
+    
+            }
+
+/*Layout diagram*/
+
+#header2 {
+    background-color: gray;
+    box-shadow: 3em black;
+    font-size: 1.4em;
+    height: 5.5em;
+    left: 0;
+    line-height: 4.4em;
+    letter-spacing: normal;
+    position: fixed;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    z-index: 10001;	
+    scroll-behavior: smooth;
+}
+#header2 nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    text-align: center;
+    top: 0.5em;
+    align-items: center;
+}
+    #header2 nav ul li {
+        list-style: none;
+        border-radius: 2px;
+        display: inline-block;
+        margin-left: 23em;
+        padding-left: 0;
+    }
+
+    #header2 nav ul li a {
+        -moz-transition: color 0.2s ease-in-out;
+        -webkit-transition: color 0.2s ease-in-out;
+        -ms-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+        color: rgb(8, 20, 0);
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .p6 {
+        margin-top: 2em;
+        margin-bottom: -10em;
+        margin-right: 15em;
+        margin-left: 3em;
+        line-height: 1.3em;
+        font-size: 1em;
+        font-family: 'palatino';
+        scroll-behavior: smooth;
+    }
+
+    .h12 {
+        padding: 0.5em;
+        font-size: 3em;
+        font-family: 'optima';
+        line-height: 1.3;
+        margin-top: 5em;
+        letter-spacing: -0.035em;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+
+    /* Helathy Habits */
+.footer6 {
+    background-color: gray;
+    padding: 2em 0em 4em 0em ;
+    position:absolute;
+    top: 80em;
+    bottom: -35em;
+    width: 100%;
+    border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+    color: #000000;
+    text-align: center;
+    height: 10em;
+}
