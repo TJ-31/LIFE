@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking css -->
+    <link rel="stylesheet" href="assests/main.css" media="all">
+    <!-- linking javascript to validate the form -->
+    <script type="text/javascript" src="assests/js/Registration.js"></script>
+    <title>Register | LIFE</title>
+</head>
+<body>
+    <!-- this is the header where navigation bar and website logo is located -->
+    <header id="header">
+        <nav id="nav">
+            <ul>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About_Us.html">About</a></li>
+                <li><a href="Contact_Us.html">Contact</a></li>
+                <li><a href="Register.html">Register</a></li>
+            </ul>
+            <a href="index.html" class="logo">
+                <div class="logo"><img src="images/Logo.png" alt="" width="300" height="120"></div>
+                <div class="logo"></div>
+            </a>
+        </nav>
+    </header>
+</body>
+
+<!-- this is an image that appears on the webpage as a front cover and it has the title and slogan on it-->
+<header class="showcase showcase5">
+    <div class="showcase-top"></div>
+    <div class="showcase-content">
+        <h1>REGISTER</h1>
+        <h5>Join us now to live your life to the fullest everyday</h5>
+    </div>
+</header>
+<body>
+    <!-- the below 3 divs are the css for the form -->
+    <div class="container1">
+        <div class="card">
+            <div class="inner-box">
+                <br>
+                <!-- this onsubmit validates the form -->
+                <form id="form" class="form" onsubmit="return checkForm()" method="POST" action="">
+                    <div class="form-control">
+                        <!-- user's inputs in text format -->
+                        <span class="label1">First Name*:</span>
+                        <input name="firstname" type="text" value="" placeholder="First name..." id="firstname">
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->
+                        <div class="error" id="firstnameError">Required: Please enter your first name</div>
+                    </div>
+                    <div class="form-control">
+                        <span class="label1">Last Name*:</span>
+                        <input name="surname" type="text" value="" id="surname" placeholder="Last name...">
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->
+                        <div class="error" id="surnameError">Required: Please enter your Last name</div>
+                    </div>
+                    <div class="form-control">
+                        <span class="label1">E-mail Address*:</span>
+                        <input type="email" placeholder="E-mail..." id="email">
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->
+                        <div class="error" id="emailError"> Required: Please enter a valid email</div>
+                    </div>
+                    <div class="form-control">
+                        <span class="label1">Confirm E-mail Address*:</span>
+                        <input type="email" placeholder="E-mail..." id="email2">
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->
+                        <div class="error" id="email2Error"> Required: Email does not match the above</div>
+                    </div>
+                    <div class="form-control">
+                        <span class="label1">Phone Number*:</span>
+                        <input name="phone" type="text" value="" id="phone" maxlength="10" placeholder="Phone Number...">
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->                        
+                        <div class="error" id="phoneError">Required: Please enter a valid phone number</div>
+                    </div>
+                    <div>
+                        <!-- range slider for user's age -->
+                        <span class="label1">Age:</span><span id="rangeValue"></span>
+                        <input type="range" id="age" class="range" name="age" value="0" min="15" max="91"
+                               onmousemove="rangeSlider(this.value)" onChange="rangeSlider(this.value)">
+                        <div id="selectValue"></div>
+                        <!-- error message is displayed if user has entered an incorrect value or if the field is empty -->
+                        <div class="error" id="ageError">
+                            Required: Please enter your age - must be between 16 and 90
+                        </div>
+                    </div>
+                    <br>
+                    <!-- radio button are provided to select user's student aand employment status -->
+                    <!-- the price change depending on their status -->
+                    <div id="student">
+                        Are you a student? <br> <input type="radio" name="yes" id="stuyes" onchange="changePrice()">Yes
+                        <input type="radio" name="yes" value="no1" onchange="changePrice()" checked>No
+                    </div>  <br>
+                    <div id="employment">
+                        Are you a employed? <br> <input type="radio" name="emp" id="empyes" onchange="changePrice()" checked>Yes
+                        <input type="radio" name="emp" value="no" id="empno" onchange="changePrice()">No
+                    </div>  <br>
+                    
+                    <!-- total price is displayed here -->
+                    <h4 class="h41">
+                        <span id="amount">Total Fees: $ <span id="price"></span></span>
+                    </h4>
+
+                    <!-- this is the submit button -->
+                    <div class="center5">
+                        <button class="button">
+                            <input type="submit" id="submit" value="Submit">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- this is the footer where resources for COVID-19 are provided -->
+    <body>
+        <footer id="footer" class="footer0">
+            <br>
+            <br>
+            <h4>COVID-19 Resources</h4>
+            <ul>
+                <li>
+                    <a href="https://www.health.gov.au/resources/collections/novel-coronavirus-2019-ncov-resources"
+                       target="_blank">General</a>
+                    <br>
+                    <a href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-case-numbers-and-statistics#covid19-summary-statistics"
+                       target="_blank">Case numbers and Stats</a>
+                    <br>
+                    <a href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/ongoing-support-during-coronavirus-covid-19"
+                       target="_blank">Health and wellbeing support</a>
+                    <br>
+                </li>
+            </ul>
+            <!-- this is the copyright section -->
+            <p class="p5"> | &#169 LIFE Health & Wellbeing </p>
+        </footer>
+    </body>
+</html>
